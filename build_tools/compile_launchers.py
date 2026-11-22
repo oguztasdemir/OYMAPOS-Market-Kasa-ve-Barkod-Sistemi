@@ -213,12 +213,12 @@ namespace OymaposLaunchers
 
                 // 3. Kurulu Tarayıcılarda Bağımsız Kiosk Penceresi Olarak Açmayı Dene
                 string[] browsers = new string[] {
-                    @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
-                    @"C:\Program Files\Google\Chrome\Application\chrome.exe",
-                    @"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
-                    @"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
-                    @"C:\Program Files\Mozilla Firefox\firefox.exe",
-                    @"C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
+                    @"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+                    @"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+                    @"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+                    @"C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe",
+                    @"C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+                    @"C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"
                 };
 
                 foreach (string bExe in browsers)
