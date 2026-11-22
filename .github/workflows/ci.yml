@@ -9,7 +9,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install test dependencies
-        run: pip install flask pandas openpyxl pytest
+        run: pip install flask pandas openpyxl cryptography pillow requests pywin32 pytest
 
       - name: Run pytest suite
         run: pytest tests -v
