@@ -1,3 +1,5 @@
+[![CI Tests](https://github.com/oguztasdemir/OYMAPOS-Market-Kasa-ve-Barkod-Sistemi/actions/workflows/ci.yml/badge.svg)](https://github.com/oguztasdemir/OYMAPOS-Market-Kasa-ve-Barkod-Sistemi/actions/workflows/ci.yml)
+
 <div align="center">
 
 # 🛒 OYMAPOS - Akıllı Perakende, Kasa & Raf Etiketi Otomasyonu
@@ -114,3 +116,14 @@ python build_tools/compile_launchers.py
 
 ## 🔒 Lisans & Güvenlik
 Bu proje perakende satış noktaları, marketler ve şarküteriler için geliştirilmiştir. Tüm hakları saklıdır.
+
+---
+
+## Yerel Testler
+
+Projenin temel çalışma ve sözdizimi doğrulama testlerini çalıştırmak için:
+
+```bash
+pip install pytest
+pytest tests -v
+```
